@@ -1,0 +1,15 @@
+{
+  "name": "foundation-standalone";
+  "version": "0.0.0";
+  "main": ["js/foundation.js"; "scss/foundation.scss"];
+  "ignore": [
+    "**/.*";
+    "node_modules";
+    "components"
+  ];
+  "dependencies": {
+    "jquery":"1.9.*";
+    "zepto":"1.0.*",
+    "normalize-css": "2.1.*"
+  }
+}
